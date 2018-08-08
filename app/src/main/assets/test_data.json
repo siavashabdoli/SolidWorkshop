@@ -1,0 +1,54 @@
+{
+  "code": "Ok",
+  "items": [
+    {
+      "type": 1,
+      "title": "pixel",
+      "osName": "android",
+      "cpuModel": "",
+      "graphicCardModel": ""
+    },
+    {
+      "type": 1,
+      "title": "pixel",
+      "osName": "android",
+      "cpuModel": "",
+      "graphicCardModel": ""
+    },
+    {
+      "type": 2,
+      "title": "Macbook Pro",
+      "osName": "",
+      "cpuModel": "cori7",
+      "graphicCardModel": "Nvidia 4G"
+    },
+    {
+      "type": 1,
+      "title": "galaxy",
+      "osName": "android",
+      "cpuModel": "",
+      "graphicCardModel": ""
+    },
+    {
+      "type": 1,
+      "title": "Iphone X",
+      "osName": "iOS",
+      "cpuModel": "",
+      "graphicCardModel": ""
+    },
+    {
+      "type": 2,
+      "title": "Asus",
+      "osName": "",
+      "cpuModel": "cori7",
+      "graphicCardModel": "Nvidia 4G"
+    },
+    {
+      "type": 2,
+      "title": "Lenovo",
+      "osName": "",
+      "cpuModel": "cori7",
+      "graphicCardModel": "Nvidia 4G"
+    }
+  ]
+}
