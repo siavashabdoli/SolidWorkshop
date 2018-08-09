@@ -73,4 +73,10 @@ class GoodsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     this.goodsItems.addAll(goodsItems);
     notifyDataSetChanged();
   }
+
+  public void addData(ArrayList<GoodsItem> goodsItemsToAdd) {
+    int size = goodsItems.size();
+    goodsItems.addAll(goodsItemsToAdd);
+    notifyItemRangeInserted(size,goodsItemsToAdd.size());
+  }
 }

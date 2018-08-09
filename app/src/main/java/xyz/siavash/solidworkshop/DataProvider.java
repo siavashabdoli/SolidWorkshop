@@ -16,7 +16,11 @@ class DataProvider {
     this.context = context;
   }
 
-  public void getGoods(final Callback callback) {
+  public void getGoods(final Callback callback, int pageNumber) {
+    if(pageNumber > 4) {
+      callback.onResponse(new ArrayList<GoodsItem>());
+      return;
+    }
     this.callback = callback;
     final Handler handler = new Handler();
     Thread thread = new Thread(new Runnable() {
